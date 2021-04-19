@@ -3,7 +3,7 @@
 # %%
 import pandas as pd
 import requests
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 import os
 
 
