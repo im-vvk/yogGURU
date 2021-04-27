@@ -1,6 +1,6 @@
 # yogGURU
 
-Test Accuracy: **90%**
+Test Accuracy: **91%**
 
 **Yoga-82 Dataset**
 
