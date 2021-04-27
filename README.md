@@ -10,6 +10,10 @@ The dataset consists of variations in body positions, and the actual pose names.
 
 ## Dataset Preparation
 
+Sample Images from Dataset
+
+![dataset.png](./asset/dataset.png)
+
 1. `pip install -r requirements.txt` to install dependencies
 
 2. `python download_dataset.py` to download the dataset.
@@ -20,12 +24,18 @@ The dataset consists of variations in body positions, and the actual pose names.
 
 ## Train Model
 
+Results of some sample images
+
+![results.png](./asset/results.png)
+
 Note: You can skip step1 (training part) if you want to save time. A already trained model is already there in `models` directory.
 
 1. `python train_model.py` to train the Model. It saves the model in models directory.
 
 2. `python -W ignore predict_img.py [Image Path]` to check an image.
 
-**_Note:_** A more compact and illustrative **Jupyter Notebook** named `main.ipynb` is in `notebooks` dir for further reference.
+### Note
+
+A more compact and illustrative **Jupyter Notebook** named `main.ipynb` is in `notebooks` dir for further reference.
 
 ---
